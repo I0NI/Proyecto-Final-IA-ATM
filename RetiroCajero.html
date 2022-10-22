@@ -1,0 +1,37 @@
+<!-- Andy Aquino 0909-22-1669
+Ioni Rodas 0909-22-7492 -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CUENTA BANCARIA</title>
+	<link rel="stylesheet" type="text/css" href="cssCajero.css">
+	<script src="jsCajero.js"></script>
+</head>
+<body>
+<div class="formulario2">
+	<h1>BIENVENIDO</h1> 
+	<h3 class="titulo">SALDO EN CUENTAS</h3>
+<h3></h3>
+    <form class="center" >
+	<label class="labelmoney" for="qt">Quetzales Q.</label>
+    <input class="inputmoney" type="number" name="cuenta1" id="ac1" value="10000" disabled>
+    <label class="labelmoney" for="dl">Dolares $.</label>
+    <input class="inputmoney" type="number" name="cuenta2" id="ac2" value="1500" disabled>
+    <hr>
+    <input class="retirarmoney" type="number" name="" id="retirar" placeholder="Cantidad a Retirar">
+    <h3></h3>
+    </form>
+    <div class="botones">
+    <input class="botonito2" type="button" value="Retirar en Quetzales" onclick="retirarQ()">
+    <input class="botonito2" type="button" value="Retirar en Dolares" onclick="retirarD()">
+    <h3></h3>
+    <input class="botonito3" type="button" value="Salir" onclick="regresar()">
+    <input class="botonito3" type="button" value="Cambiar PIN" onclick="PIN()">
+</div>
+</div>
+</body>
+</html>
